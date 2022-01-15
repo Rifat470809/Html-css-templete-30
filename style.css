@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.box{
+	max-width: 1140px;
+	margin: auto;
+}
+
+.header-section{
+	max-width: 1140px;
+	background: #3B5998;
+	padding: 25px 0;
+}
+
+.logo-login{
+	width: 960px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo img{
+	width: 210px;
+	margin-top: 7px;
+}
+
+.login{
+	display: flex;
+}
+
+.email label{
+	font-size: 15px;
+	color: #fff;
+	display: block;
+}
+
+.email input{
+	width: 180px;
+	padding: 3px 5px;
+	border: 0;
+	margin-top: 7px;
+}
+
+.email input:hover{
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+
+.password{
+	margin-left: 25px;
+}
+
+.password label{
+	font-size: 15px;
+	color: #fff;
+	display: block;
+}
+
+.password input{
+	width: 180px;
+	padding: 3px 5px;
+	border: 0;
+	margin-top: 7px;
+}
+
+.password a{
+	display: block;
+	color: #9cb4d8;
+	margin-top: 4px;
+	text-decoration: none;
+}
+
+.password input:hover{
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+
+.password a:hover{
+	text-decoration: underline;
+}
+
+.log{
+	display: inline-block;
+}
+
+.log button{
+	font-size: 16px;
+	margin-top: 24px;
+	margin-left: 15px;
+	padding: 3px 10px;
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*-----------------------*/
+
+.midil-section{
+	max-width: 1140px;
+	background: #E4E7F1;
+	padding: 20px;
+}
+
+.midil{
+	width: 960px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.left-section{
+	width: 470px;
+}
+
+.left-section h2{
+	font-size: 22px;
+	margin-top: 15px;
+	color: #0e385f;
+}
+
+.left-section img{
+	width: 470px;
+	margin-top: 30px;
+}
+
+.right-section{
+	width: 430px;
+}
+
+.right-section h2{
+	font-size: 35px;
+	color: #333;
+}
+
+.right-section p{
+	font-size: 19px;
+	color: #1d2129;
+}
+
+.name{
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.name input{
+	width: 205px;
+	font-size: 14px;
+	padding: 5px 5px;
+	border: 2px solid #eee;
+	border-radius: 4px;
+}
+
+.name input:hover{	
+	border: 2px solid #000;
+	border-radius: 4px;
+}
+
+.suname{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.suname input{
+	width: 205px;
+	font-size: 14px;
+	padding: 5px 5px;
+	border: 2px solid #eee;
+	border-radius: 4px;
+}
+
+.suname input:hover{	
+	border: 2px solid #000;
+	border-radius: 4px;
+}
+
+.Mobile input{
+	width: 430px;
+	font-size: 13px;
+	padding: 5px 5px;
+	border: 2px solid #eee;
+	border-radius: 4px;	
+	margin-top: 10px;
+}
+
+.Mobile input:hover{	
+	border: 2px solid #000;
+	border-radius: 4px;
+}
+
+.password-item input{
+	width: 430px;
+	font-size: 13px;
+	padding: 5px 5px;
+	border: 2px solid #eee;
+	border-radius: 4px;	
+	margin-top: 10px;
+}
+
+.password-item input:hover{	
+	border: 2px solid #000;
+	border-radius: 4px;
+}
+
+.Birthday{
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.Birthday h2{
+	font-size: 18px;
+	color: #1d2129;
+	font-weight: normal;
+}
+
+.Birthday select{
+	padding: 6px 5px;
+	margin-top: 5px;
+}
+
+.dirth{
+	width: 150px;
+	float: right;
+	margin-top: 47px;
+	margin-right: 70px;
+}
+
+.dirth p{
+	font-size: 12px;
+	color: #365099;
+}
+
+.gender{
+	margin-top: 18px;
+}
+
+.gender input{
+	margin-left: 5px;
+}
+
+.gender label{
+	font-size: 21px;
+	font-weight: 600;
+	color: #333;
+}
+
+.clicking{
+	margin-top: 20px;
+}
+
+.clicking p{
+	font-size: 14px;
+	color: #999;
+}
+
+.clicking a{
+	text-decoration: none;
+}
+
+.Create{
+	margin-top: 29px;
+}
+
+.Create a{
+	text-decoration: none;
+	background: #578843;
+	padding: 7px 20px;
+	font-size: 22px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.dusiness{
+	margin-top: 25px;
+}
+
+.dusiness a{
+	text-decoration: none; 
+}
+
+.dusiness p{
+	font-size: 18px;
+	font-weight: normal;
+}
+
+/*---------------------------*/
+
+.fooder-section{
+	width: 1140px;
+	padding: 30px;
+	background: #fff;
+}
+
+.fooder{
+	width: 960px;
+	margin: auto; 
+}
+
+.top{
+	border-bottom: 1px solid #6666;
+}
+
+.top ul{
+	list-style-type: none;
+}
+
+.top ul li{
+	padding: 10px 8px;
+	display: inline-block;
+}
+
+.top ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #365899;
+}
+
+.top ul li:last-child a{
+	background: #e5e5e5;    
+	border: 1px solid #999;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+	padding: 3px 8px;
+}
+
+.top ul li:hover a{
+	text-decoration: underline;
+}
+
+.middle ul{
+	list-style-type: none;
+}
+
+.middle ul li{
+	display: inline-block;
+	padding: 7px 4px;
+}
+
+.middle ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #365899;
+}
+
+.middle ul li:hover a{
+	text-decoration: underline;
+}
+
+.Copyright{
+	margin-top: 12px;
+}
+
+.Copyright h2{
+	font-size: 15px;
+	color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
